@@ -1,0 +1,202 @@
+body {
+    background-image: linear-gradient(90deg, rgb(19, 130, 158) 10%, rgb(5, 15, 59) 35%, rgba(0,212,255,1) 100%);
+    background-size: cover;
+  }
+
+  .search{
+       display: flex;
+       position: relative;
+       top: 10px;
+       width:100% ;
+       
+  }
+  .input{
+    padding: 10px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    background-color: rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    color: grey;
+ 
+  }
+ 
+  .butn{
+    background-color: rgba(0, 0, 0, 0.137);
+    padding: 10px;
+    width: 100px;
+    position: relative;
+    left: 20%;
+    border-radius: 10px;
+  }
+  .header{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+  }
+
+ 
+  .main-box {
+    width: 30%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdfdfd1a;
+    position: relative;
+    top: 10vh;
+    left: 63vh;
+    padding: 20px;
+    box-shadow: inset 0 0 12px 12px rgba(4, 240, 220, 0.26), inset 0 0 3px 2px rgb(104, 102, 102);
+    border-radius: 10px;
+  }
+  
+  .main-box .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px double white;
+    margin-bottom: 20px;
+    
+  }
+  
+  .main-box .name {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.205);
+    margin-bottom: 10px;
+  }
+  
+  .main-box .bio {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(168, 165, 165);
+  }
+  .main-box .icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+   
+    
+
+  }
+
+  .main-box .github_img{
+    width: 50px;
+  }
+
+
+
+/* Media queries for responsiveness */
+
+/* For screens smaller than 1200px */
+@media (max-width: 1200px) {
+  .main-box {
+     width: 40%;
+     left: 50vh;
+   }
+  .input {
+     width: 60%;
+     left: 20%;
+   }
+  .butn {
+     width: 80px;
+     left: 25%;
+   }
+ }
+ 
+ /* For screens smaller than 992px */
+ @media (max-width: 992px) {
+  .main-box {
+     width: 50%;
+     left: 40vh;
+   }
+  .input {
+     width: 70%;
+     left: 15%;
+   }
+  .butn {
+     width: 100px;
+     left: 20%;
+   }
+ }
+ 
+ /* For screens smaller than 768px */
+ @media (max-width: 768px) {
+  .main-box {
+     width: 60%;
+     left: 30vh;
+   }
+  .input {
+     width: 80%;
+     left: 10%;
+   }
+  .butn {
+     width: 100px;
+     left: 15%;
+   }
+ }
+ 
+ /* For screens smaller than 480px */
+ @media (max-width: 480px) {
+  .main-box {
+     width: 80%;
+     left: 10vh;
+   }
+  .input {
+     width: 90%;
+     left: 5%;
+   }
+  .butn {
+     width: 100px;
+     left: 10%;
+   }
+ }
+ 
+ /* For screens smaller than 400px */
+ @media (max-width: 400px) {
+  .main-box {
+     width: 90%;
+     left: 5vh;
+   }
+  .input {
+     width: 95%;
+     left: 2.5%;
+   }
+  .butn {
+     width: 100px;
+     left: 12.5%;
+   }
+ }
+ 
+ /* For screens smaller than 320px */
+ @media (max-width: 320px) {
+  .main-box {
+     width: 95%;
+     left: 2.5vh;
+   }
+
+  }
+  @media (max-width: 350px) {
+    .main-box {
+       width: 90%;
+       padding: 15px;
+       margin: 20px auto;
+     }
+    .search-input {
+       width: 60%;
+       padding: 8px;
+       font-size: 14px;
+     }
+    .butn {
+       width: 35%;
+       padding: 8px;
+       font-size: 14px;
+     }
+   }
+ 
